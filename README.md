@@ -7,7 +7,7 @@ Use lazy.nvim to install this plugin.
 ```lua
 require("lazy").setup({
     {
-        "rookie_smooth.nvim",
+        "modulomedito/rookie_smooth.nvim",
         config = function()
             require("rookie_smooth").setup()
         end,
