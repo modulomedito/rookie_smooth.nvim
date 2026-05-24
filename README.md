@@ -5,10 +5,12 @@
 Use lazy.nvim to install this plugin.
 
 ```lua
-return {
-    "rookie_smooth.nvim",
-    config = function()
-        require("rookie_smooth").setup()
-    end,
-}
+require("lazy").setup({
+    {
+        "rookie_smooth.nvim",
+        config = function()
+            require("rookie_smooth").setup()
+        end,
+    },
+})
 ```
